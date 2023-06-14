@@ -1,7 +1,7 @@
 rootProject.name = 'v3-periphery'
 
 ext {
-    web3jVersion = '4.9.4'
+    web3jVersion = '4.10.0'
 }
 
 dependencyResolutionManagement {
