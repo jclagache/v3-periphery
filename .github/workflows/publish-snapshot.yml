@@ -2,9 +2,9 @@ name: Publish snapshot
 
 on:
   workflow_run:
-    workflows: [ 'Build' ]
-    branches: [ master ]
-    types: [ completed ]
+    workflows: [Build]
+    branches: [master]
+    types: [completed]
 
 jobs:
   publish-snapshot:
