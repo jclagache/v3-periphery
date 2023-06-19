@@ -4,12 +4,12 @@ This repository contains Web3j generated smart contract wrapper code to interact
 For the periphery smart contracts sources, see the [uniswap-v3-periphery](https://github.com/Uniswap/uniswap-v3-periphery) repository.
 
 ## Maven
-Add the repository to the repositories element of your project pom.xml file.
+Add the [JitPack](https://jitpack.io/) repository to the repositories element of your project pom.xml file.
 ```xml
 <repositories>
     <repository>
-        <id>v3-periphery-repo</id>
-        <url>https://maven.pkg.github.com/jclagache/v3-periphery/</url>
+        <id>jitpack</id>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 ```
@@ -18,7 +18,7 @@ Add the package dependencies to the dependencies element of your project pom.xml
 ```xml
 <dependencies>
  <dependency>
-    <groupId>me.jclagache.amm.uniswap.v3</groupId>
+    <groupId>me.jclagache</groupId>
     <artifactId>v3-periphery</artifactId>
     <version>1.4.3-SNAPSHOT</version>
   </dependency>
@@ -26,13 +26,13 @@ Add the package dependencies to the dependencies element of your project pom.xml
 ```
 
 ## Gradle
-Add the repository to your build.gradle file (Gradle Groovy) or build.gradle.kts file (Kotlin DSL) file.
+Add the [JitPack](https://jitpack.io/) repository to your build.gradle file (Gradle Groovy) or build.gradle.kts file (Kotlin DSL) file.
 
 Groovy:
 ```groovy
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/jclagache/v3-periphery")
+        url = uri("https://jitpack.io")
     }
 }
 ```
@@ -40,7 +40,7 @@ Kotlin:
 ```kotlin
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/jclagache/v3-periphery")
+        url = uri("https://jitpack.io")
     }
 }
 ```
@@ -50,13 +50,13 @@ Add the package dependencies to your build.gradle file (Gradle Groovy) or build.
 Groovy:
 ```groovy
 dependencies {
-    implementation 'me.jclagache.amm.uniswap.v3:v3-periphery:1.4.3-SNAPSHOT'
+    implementation 'me.jclagache:v3-periphery:1.4.3-SNAPSHOT'
 }
 ```
 Kotlin:
 ```kotlin
 dependencies {
-    implementation("me.jclagache.amm.uniswap.v3:v3-periphery:1.4.3-SNAPSHOT")
+    implementation("me.jclagache:v3-periphery:1.4.3-SNAPSHOT")
 }
 ```
 
