@@ -8,7 +8,7 @@ Add the [JitPack](https://jitpack.io/) repository to the repositories element of
 ```xml
 <repositories>
     <repository>
-        <id>jitpack</id>
+        <id>jitpack.io</id>
         <url>https://jitpack.io</url>
     </repository>
 </repositories>
@@ -20,7 +20,7 @@ Add the package dependencies to the dependencies element of your project pom.xml
  <dependency>
     <groupId>me.jclagache</groupId>
     <artifactId>v3-periphery</artifactId>
-    <version>1.4.3-SNAPSHOT</version>
+    <version>v1.4.3-SNAPSHOT</version>
   </dependency>
 </dependencies>
 ```
@@ -50,13 +50,13 @@ Add the package dependencies to your build.gradle file (Gradle Groovy) or build.
 Groovy:
 ```groovy
 dependencies {
-    implementation 'me.jclagache:v3-periphery:1.4.3-SNAPSHOT'
+    implementation 'me.jclagache:v3-periphery:v1.4.3-SNAPSHOT'
 }
 ```
 Kotlin:
 ```kotlin
 dependencies {
-    implementation("me.jclagache:v3-periphery:1.4.3-SNAPSHOT")
+    implementation("me.jclagache:v3-periphery:v1.4.3-SNAPSHOT")
 }
 ```
 
